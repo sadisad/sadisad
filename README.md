@@ -18,15 +18,16 @@
 </div>
 
 ### Programming languages:
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python&logoWidth=40)
 
 ### Frameworks:
-![PyTorch](https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=PyTorch)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-black?style=flat-square&logo=TensorFlow)
-![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-black?style=flat-square&logo=scikit-learn)
-![NumPy](https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy)
+![PyTorch](https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=PyTorch&logoWidth=40)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-black?style=flat-square&logo=TensorFlow&logoWidth=40)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-black?style=flat-square&logo=scikit-learn&logoWidth=40)
+![NumPy](https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy&logoWidth=40)
 
 ### Programs:
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat-square&logo=visual-studio-code)
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat-square&logo=visual-studio-code&logoWidth=40)
+
 
 
