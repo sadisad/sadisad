@@ -2,9 +2,9 @@
   <h1>Welcome to my GitHub! I'm Syd. 👋</h1>
 
   <p>
-    As a Python developer with a solid foundation in both deep learning and machine learning, as well as data analysis, 
+    <div align="left"> As a Python developer with a solid foundation in both deep learning and machine learning, as well as data analysis, 
     I focus on crafting straightforward Computer Vision applications inspired by real-world challenges. 
-    Currently, I'm advancing my skills in PyTorch to develop custom models for tasks such as image classification, detection, and segmentation.
+    Currently, I'm advancing my skills in PyTorch to develop custom models for tasks such as image classification, detection, and segmentation. </div>
   </p>
 
   <table>
