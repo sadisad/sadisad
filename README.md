@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, i'm Syd 
+# Welcome to my GitHub! I'm Syd. 👋
 a Python developer with a solid foundation in both deep learning and machine learning, as well as data analysis. I focus on crafting straightforward Computer Vision applications inspired by real-world challenges. Currently, I'm advancing my skills in PyTorch to develop custom models for tasks such as image classification, detection, and segmentation.
 
 <img width="47%" src="https://github-readme-stats.vercel.app/api?username=sadisad&show_icons=true&theme=prussian" />
