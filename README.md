@@ -1,14 +1,21 @@
 <div align="center">
+  <h1>Welcome to my GitHub! I'm Syd. 👋</h1>
 
-# **Welcome to my GitHub! I'm Syd. 👋**
-<div align="left"> a Python developer with a solid foundation in both deep learning and machine learning, as well as data analysis. I focus on crafting straightforward Computer Vision applications inspired by real-world challenges. Currently, I'm advancing my skills in PyTorch to develop custom models for tasks such as image classification, detection, and segmentation. </div>
+  <p>
+    As a Python developer with a solid foundation in both deep learning and machine learning, as well as data analysis, 
+    I focus on crafting straightforward Computer Vision applications inspired by real-world challenges. 
+    Currently, I'm advancing my skills in PyTorch to develop custom models for tasks such as image classification, detection, and segmentation.
+  </p>
 
+  <table>
+    <tr>
+      <td><img src="https://github-readme-stats.vercel.app/api?username=saidis&show_icons=true&theme=prussian" /></td>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saidis&layout=compact&theme=prussian" /></td>
+    </tr>
+  </table>
 
-<img width="47%" src="https://github-readme-stats.vercel.app/api?username=sadisad&show_icons=true&theme=prussian" />
-
-<img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sadisad&layout=compact&theme=prussian" />
-
-<img src="https://streak-stats.demolab.com/?user=sadisad&theme=prussian" />
+  <img src="https://streak-stats.demolab.com/?user=saidis&theme=prussian" />
+</div>
 
 # Languages and Tools:
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /> 
