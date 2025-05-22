@@ -40,7 +40,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 **Databases:**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white)
-![DBeaver](https://img.shields.io/badge/DBeaver-372923.svg?logo=data:image/svg+xml;base64,...&logoColor=white)
+[![DBeaver](https://img.shields.io/badge/DBeaver-372923.svg?logo=data:image/svg+xml;base64,...&logoColor=white)](https://img.shields.io/badge/dbeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791.svg?logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)
 
