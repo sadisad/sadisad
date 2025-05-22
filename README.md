@@ -55,7 +55,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 ![Nvidia](https://img.shields.io/badge/NVIDIA-76B900?logo=nvidia&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?logo=jupyter&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833.svg?logo=anaconda&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visual-studio-code&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VisualStudio%20Code-007ACC.svg?logo=visual-studio-code&logoColor=white)
 
 **Cloud Providers:**
 
