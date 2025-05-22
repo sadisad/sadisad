@@ -31,7 +31,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 **Programming:**
 
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-00000F.svg?logo=MySQL&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white)
 
 **Frameworks & Libraries:**
 
