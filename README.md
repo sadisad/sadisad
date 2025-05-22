@@ -1,10 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/irsyadzulfikar/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=4A71D9&center=true&vCenter=true&width=435&lines=Hi+there%F0%9F%91%8B!+I+am+Irsyad+Zulfikar;Welcome+to+my+GitHub!" alt="Typing SVG" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/irsyadzulfikar/"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?logo=Linkedin&logoColor=white"></a>
-  <a href="mailto:zulfikarirsyad@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-IRSYAD-yellow?logo=gmail&logoColor=white"></a>
+  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=4A71D9&center=true&vCenter=true&width=435&lines=Hi+there%F0%9F%91%8B!+I+am+Irsyad+Zulfikar;Welcome+to+my+GitHub!" alt="Typing SVG" /></a>
 </p>
 
 ---
@@ -45,6 +40,8 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8.svg?logo=opencv&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E.svg?logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED.svg?logo=ONNX&logoColor=white)
 
 **Tools:**
 
