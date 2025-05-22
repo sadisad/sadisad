@@ -36,8 +36,8 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 ![Flask](https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20.svg?logo=django&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white)
 
 **Databases:**
 
