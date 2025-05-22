@@ -40,7 +40,7 @@
 
 ## 💻 Tools & Environments
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat-square&logo=visual-studio-code)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-black?style=flat-square&logo=visualstudiocode)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![MLflow](https://img.shields.io/badge/-MLflow-black?style=flat-square&logo=mlflow)
 ![Grafana](https://img.shields.io/badge/-Grafana-black?style=flat-square&logo=grafana)
@@ -51,16 +51,12 @@
 
   <h2>📊 GitHub Stats & Activity</h2>
 
-  <br/>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=saidis&show_icons=true&theme=prussian&hide=stars&count_private=true" width="47%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saidis&layout=compact&theme=prussian&langs_count=8" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=saidis&show_icons=true&theme=prussian&hide=stars&count_private=true&hide_rank=true" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saidis&layout=compact&theme=prussian&langs_count=6" width="47%" />
 
   <br/><br/>
 
-  <img src="https://streak-stats.demolab.com/?user=saidis&theme=prussian&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="95%" />
-
-  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=saidis&theme=prussian&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="90%" />
 
 </div>
 
