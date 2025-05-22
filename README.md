@@ -56,8 +56,8 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 **Software & Tools:**
 
-![Roboflow](https://img.shields.io/badge/Roboflow-8C30F5.svg?logo=data:image/png;base64,<BASE64_ROBOFLOW>&logoColor=white)
-![Label Studio](https://img.shields.io/badge/Label%20Studio-FF6D5A.svg?logo=data:image/png;base64,<BASE64_LABELSTUDIO>&logoColor=white)
+![Label Studio](https://img.shields.io/badge/Label%20Studio-FF6D61.svg?logoColor=white)
+![Roboflow](https://img.shields.io/badge/Roboflow-7952F5.svg?logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26.svg?logo=gitlab&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white)
