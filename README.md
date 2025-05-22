@@ -72,5 +72,5 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 ---
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="90%" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="90%" />
 </p>
