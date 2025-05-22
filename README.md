@@ -74,12 +74,12 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 ### 🎓 Education & Certifications
 
-- **B.CompEng - Telkom University Purwokerto**, GPA: 3.8
+- **B.CompEng - Telkom University**, GPA: 3.8
+- AI Career Bootcamp (Computer Vision) Batch 1 at Indonesia AI
 - Building Systems with ChatGPT API (DeepLearning.AI)
 - Supervised ML (DeepLearning.AI)
 - Prompt Engineering with LLaMA 2&3
-- AI Career Bootcamp (Computer Vision)
-- Database Programmer (BNSP)
+
 
 ---
 
