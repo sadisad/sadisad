@@ -28,7 +28,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 ### 🔧 Tech Stack
 
-**Languages:**
+**Programming:**
 
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-00000F.svg?logo=MySQL&logoColor=white)
@@ -37,19 +37,38 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/Tensorflow-FE7A16.svg?logo=Tensorflow&logoColor=white)
+![TorchVision](https://img.shields.io/badge/TorchVision-EE4C2C.svg?logo=PyTorch&logoColor=white)
+![TorchAudio](https://img.shields.io/badge/TorchAudio-EE4C2C.svg?logo=PyTorch&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED.svg?logo=ONNX&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNXRuntime-717272.svg?logo=ONNX&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8.svg?logo=opencv&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E.svg?logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED.svg?logo=ONNX&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20.svg?logo=django&logoColor=white)
 
-**Tools:**
+**Databases:**
 
-![MLflow](https://img.shields.io/badge/MLflow-0033AD.svg?logo=mlflow&logoColor=white)
-![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4.svg?logo=googlecloud&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-945DD6.svg?logo=dvc&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-372923.svg?logo=data:image/svg+xml;base64,...&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791.svg?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)
+
+**Software & Tools:**
+
+![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26.svg?logo=gitlab&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
+![Nvidia](https://img.shields.io/badge/NVIDIA-76B900?logo=nvidia&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?logo=jupyter&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833.svg?logo=anaconda&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visual-studio-code&logoColor=white)
+
+**Cloud Providers:**
+
+![Amazon AWS](https://img.shields.io/badge/AWS-232F3E.svg?logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4.svg?logo=googlecloud&logoColor=white)
 
 ---
 
