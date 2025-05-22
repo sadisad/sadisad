@@ -40,7 +40,7 @@
 
 ## 💻 Tools & Environments
 
-![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-black?style=flat-square&logo=visualstudiocode)
+![VS Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat-square&logo=visual-studio-code&logoWidth=40)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![MLflow](https://img.shields.io/badge/-MLflow-black?style=flat-square&logo=mlflow)
 ![Grafana](https://img.shields.io/badge/-Grafana-black?style=flat-square&logo=grafana)
