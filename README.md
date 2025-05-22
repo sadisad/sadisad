@@ -35,6 +35,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 **Frameworks & Libraries:**
 
+![MLflow](https://img.shields.io/badge/MLflow-0033AD.svg?logo=mlflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/Tensorflow-FE7A16.svg?logo=Tensorflow&logoColor=white)
 ![TorchVision](https://img.shields.io/badge/TorchVision-EE4C2C.svg?logo=PyTorch&logoColor=white)
