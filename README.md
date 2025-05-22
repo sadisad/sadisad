@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=4A71D9&center=true&vCenter=true&width=435&lines=H Hi+there%F0%9F%91%8B!+I+am+Irsyad+Zulfikar;Welcome+to+my+GitHub!" alt="Typing SVG" /></a>
+  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=4A71D9&center=true&vCenter=true&width=435&lines=Hi+there%2C%F0%9F%91%8B!+I+am+Irsyad+Zulfikar;Welcome+to+my+GitHub!" alt="Typing SVG" /></a>
 </p>
 
 ---
@@ -70,3 +70,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 - 🔗 LinkedIn: [linkedin.com/in/irsyadzulfikar](https://www.linkedin.com/in/irsyadzulfikar)
 
 ---
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="90%" />
+</p>
