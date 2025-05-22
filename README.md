@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/irsyadzulfikar/"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?logo=Linkedin&logoColor=white"></a>
   <a href="mailto:zulfikarirsyad@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-IRSYAD-yellow?logo=gmail&logoColor=white"></a>
-  <a href="https://huggingface.co/"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FF9A00?logo=HuggingFace&logoColor=white"></a>
 </p>
 
 ---
