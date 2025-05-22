@@ -89,7 +89,3 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 - 🔗 LinkedIn: [linkedin.com/in/irsyadzulfikar](https://www.linkedin.com/in/irsyadzulfikar)
 
 ---
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="90%" />
-</p>
