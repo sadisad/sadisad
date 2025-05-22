@@ -17,9 +17,10 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saidis&theme=github_dark" width="100%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saidis&theme=github_dark" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=saidis&theme=github_dark" width="48%" />
+<a href="https://github.com/saidis">
+  <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=saidis&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=saidis&layout=compact&langs_count=8&theme=algolia"/>
+</a>
 </p>
 
 ---
