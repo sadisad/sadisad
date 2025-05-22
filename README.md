@@ -8,20 +8,11 @@
     <br><br>
     Currently focusing on refining custom deep learning models, improving deployment pipelines, and contributing to open-source projects in machine learning.
   </p>
-
-  <table>
-    <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=saidis&show_icons=true&theme=prussian" /></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saidis&layout=compact&theme=prussian" /></td>
-    </tr>
-  </table>
-
-  <img src="https://streak-stats.demolab.com/?user=saidis&theme=prussian" />
 </div>
 
 ---
 
-### 🧠 Core Skills
+## 🧠 Core Skills
 
 - **Machine Learning & Deep Learning**: PyTorch, TensorFlow, Scikit-Learn
 - **Computer Vision**: Object Detection, Image Segmentation, Face Recognition
@@ -31,13 +22,13 @@
 
 ---
 
-### 🛠️ Programming Languages
+## 🛠️ Programming Languages
 
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 
 ---
 
-### ⚙️ Frameworks & Libraries
+## ⚙️ Frameworks & Libraries
 
 ![PyTorch](https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=PyTorch)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-black?style=flat-square&logo=TensorFlow)
@@ -47,7 +38,7 @@
 
 ---
 
-### 💻 Tools
+## 💻 Tools & Environments
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat-square&logo=visual-studio-code)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
@@ -56,8 +47,26 @@
 
 ---
 
-### 📫 Contact
+<div align="center">
 
-📧 zulfikarirsyad@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/irsyadzulfikar/)
+  <h2>📊 GitHub Stats & Activity</h2>
 
+  <br/>
+
+  <img src="https://github-readme-stats.vercel.app/api?username=saidis&show_icons=true&theme=prussian&hide=stars&count_private=true" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saidis&layout=compact&theme=prussian&langs_count=8" width="47%" />
+
+  <br/><br/>
+
+  <img src="https://streak-stats.demolab.com/?user=saidis&theme=prussian&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="95%" />
+
+  <br/>
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+- 📧 Email: zulfikarirsyad@gmail.com  
+- 🔗 LinkedIn: [linkedin.com/in/irsyadzulfikar](https://www.linkedin.com/in/irsyadzulfikar/)
