@@ -78,7 +78,7 @@ I'm **Irsyad Zulfikar**, an AI Engineer passionate about delivering impactful so
 
 ### 📊 GitHub Stats
 <p align="center">
-<a href="https://github.com/saidis">
+<a href="https://github.com/sadisad">
   <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=sadisad&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sadisad&layout=compact&langs_count=8&theme=algolia"/>
 </a>
