@@ -132,12 +132,14 @@ Software Engineer with **3+ years of experience** building and deploying product
 ### GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sadisad&show_icons=true&include_all_commits=true&count_private=true&theme=algolia&hide_border=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sadisad&layout=compact&langs_count=8&theme=algolia&hide_border=true" alt="Top Languages" />
+  <a href="https://github.com/sadisad">
+    <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=sadisad&show_icons=true&include_all_commits=true&count_private=true&theme=algolia&hide_border=true" alt="GitHub Stats" />
+    <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sadisad&layout=compact&langs_count=8&theme=algolia&hide_border=true" alt="Top Languages" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sadisad&theme=algolia&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=sadisad&theme=algolia&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
