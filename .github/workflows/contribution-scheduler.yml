@@ -1,0 +1,80 @@
+name: Daily Contribution Scheduler
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "31 5 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "43 8 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "19 11 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "7 14 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "53 16 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "26 19 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "41 21 * * *"
+      timezone: "Asia/Jakarta"
+    - cron: "13 23 * * *"
+      timezone: "Asia/Jakarta"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-contribution-scheduler
+  cancel-in-progress: false
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check 365-day window
+        id: window
+        shell: bash
+        run: |
+          export TZ=Asia/Jakarta
+          today="$(date +%F)"
+          start_date="2026-09-24"
+          end_date="2027-09-24"
+
+          if [[ "$today" < "$start_date" || "$today" >= "$end_date" ]]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "Outside configured 365-day window: $today"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "Within configured 365-day window: $today"
+          fi
+
+      - name: Create contribution commit
+        if: steps.window.outputs.enabled == 'true'
+        shell: bash
+        env:
+          GIT_AUTHOR_NAME: "Irsyad Zulfikar"
+          GIT_AUTHOR_EMAIL: "zulfikarirsyad@gmail.com"
+          GIT_COMMITTER_NAME: "Irsyad Zulfikar"
+          GIT_COMMITTER_EMAIL: "zulfikarirsyad@gmail.com"
+        run: |
+          export TZ=Asia/Jakarta
+
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+
+          now="$(date '+%Y-%m-%d %H:%M:%S %z')"
+          printf '%s | automated contribution\n' "$now" >> activity.log
+
+          git add activity.log
+          GIT_AUTHOR_DATE="$now" GIT_COMMITTER_DATE="$now"             git commit -m "chore: daily contribution $now"
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
