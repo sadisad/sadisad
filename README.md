@@ -108,7 +108,7 @@ Software Engineer with **3+ years of experience** building and deploying product
 
 ### Featured Projects
 
-**[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)**: my AI engineering reference for uncertainty-aware bean-leaf triage. Safe image validation, abstention, FastAPI, bounded Prometheus metrics, locked CPU inference, tests, and non-root Docker. Reproduced 96.875% model-level accuracy on 128 pinned upstream test images; this is not field-validated diagnosis. [Evidence and failure analysis](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
+**[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)**: my AI engineering reference for uncertainty-aware bean-leaf triage. Safe image validation, abstention, FastAPI, bounded Prometheus metrics, locked CPU inference, tests, and non-root Docker. Reproduced 96.875% model-level accuracy on 128 pinned upstream test images; this is not field-validated diagnosis. [Live demo](https://leafsentry.syd.my.id) · [Evidence and failure analysis](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
 
 - **[Axiom Alpha](https://axiomalpha.online)** - Full-stack investment analysis web platform. Django backend, custom frontend, end-to-end cloud deployment.
 - **[Personal Portfolio](https://zulfikarirsyad.my.id)** - TypeScript-dominant personal site, independently designed and deployed. [`source`](https://github.com/sadisad/personal-website)
