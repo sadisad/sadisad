@@ -1,59 +1,92 @@
+<img src="./img/header.webp" width="100%" align="center" alt="Irsyad Zulfikar"/>
+
+---
+
+<img src="./img/kaneki.webp" align="right" width="208" alt="Illustration"/>
+
 # Irsyad Dzulfikar
 
 **AI engineer in Jakarta.** I build computer-vision and LLM systems that run in production, and I spend about as much time on their failure modes as on the models.
 
 [Portfolio](https://www.zulfikarirsyad.my.id) · [LinkedIn](https://www.linkedin.com/in/irsyadzulfikar) · [Email](mailto:zulfikarirsyad@gmail.com)
 
-## Now
+### Now
 
-**AI Engineer at ENB Mobile Care.** Automated smartphone grading: a six-model vision pipeline (detection, classification, segmentation) that sets trade-in price, where one grade off costs real money. Most of my week goes to evaluation, GKE capacity, and inference observability rather than to the models themselves.
+AI Engineer at **ENB Mobile Care**: a six-model vision pipeline (detection, classification, segmentation) that grades smartphones and sets trade-in price, where one grade off costs real money. Most of the week goes to evaluation, GKE capacity, and inference observability rather than to the models themselves.
 
-Side projects run the same way, smaller: an uncertainty-aware leaf-disease triage service, and a hardening pass on a school counseling platform that turned up six gaps in its own test and deploy checks.
+### Active projects
 
-## Selected work
+- **[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** — bean-leaf triage that abstains instead of guessing. Apache-2.0, [live demo](https://leafsentry.syd.my.id), [evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
+- **[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)** — two-stage eye-screening prototype, published with its own defects listed rather than hidden.
+- **[Axiom Alpha](https://axiom-alpha.com)** — investment analysis platform on Django, deployed and maintained on one VPS.
+- **[zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)** — this site, Next.js with MDX.
 
-**[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** · Apache-2.0
-Bean-leaf triage that abstains instead of guessing. Selective prediction on top-two margin and normalised entropy, an untrusted-image boundary before inference, a FastAPI contract with independent liveness and readiness, CPU inference behind a predictor protocol.
-Evidence: 96.875% top-1 on 128 pinned upstream test images, which is model-level, not field performance.
-[Live demo](https://leafsentry.syd.my.id) · [Evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md) · CI, CodeQL, and a model-evaluation workflow on every push.
+<br clear="right"/>
 
-**[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)**
-Two-stage eye-screening prototype built around a refusal path. Two models vote, and "inconclusive" is a first-class outcome instead of a coin flip dressed up as an answer. CPU inference, browser front end.
-
-**[Axiom Alpha](https://axiom-alpha.com)**
-Investment analysis platform: Django backend, custom frontend, deployed end to end on a single VPS I also maintain.
-
-**[zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)**
-This site. Next.js with MDX, designed and shipped by me, including the build and preview setup behind it.
+---
 
 ## Writing
 
-- [Migrating from Docker Swarm to GKE: 5 Lessons from Production](https://www.zulfikarirsyad.my.id/blog/docker-swarm-to-gke) — per-microservice HPA tuning, VictoriaMetrics observability, and the cost-vs-latency tradeoff that nearly broke us.
+- [Hardening SIMBK: six gaps in the verification process](https://www.zulfikarirsyad.my.id/blog/simbk-hardening-audit) — a maintenance pass that found six defects in a production platform's own test and deploy checks, including a migration that could never have succeeded.
 - [Building a 6-Model Ensemble for Smartphone Grading](https://www.zulfikarirsyad.my.id/blog/smartphone-grading-ensemble) — how the pipeline ended up after a year of iteration, including the bottleneck that was not the models.
+- [Migrating from Docker Swarm to GKE: 5 Lessons from Production](https://www.zulfikarirsyad.my.id/blog/docker-swarm-to-gke) — per-microservice HPA tuning, VictoriaMetrics observability, and the cost-vs-latency tradeoff that nearly broke us.
 
-## Security is part of building, not a phase after it
+## Evidence before adjectives
 
-Most "AI incidents" I have seen up close were ordinary engineering failures wearing a model costume. These are the habits I enforce because of it.
+Anything I put in a README has to survive someone reading the code. That rule shapes how these projects are built:
 
-- **Audit trails are server-side.** Every state change I ship writes an audit row with actor, target, and action, rather than being reconstructed from request logs later.
+- **Measurements carry their own scope.** LeafSentry's 96.875% top-1 on 128 pinned upstream test images is labelled model-level evidence, not field performance, in the repo and here.
 - **A backup is not real until it has been restored.** Restore drills are scripted, run against a scratch target, and the last result is kept, local and offsite.
-- **Advisories drive patching, not urgency.** When two critical Next.js RCE advisories landed on the portfolio codebase, the fix shipped with the transitive packages that `npm audit fix` cannot lift. Remaining dev-toolchain debt gets written down, not hidden.
-- **The guards get tested.** If a deploy path skips its migration, or a mutation forgets its audit write, CI fails before the release does. A check nobody verifies is a comment.
+- **Guards get tested.** If a deploy path skips its migration, or a mutation forgets its audit write, CI fails before the release does. A check nobody verifies is a comment.
+- **Defects go in the README.** [deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling) documents that its own fallback path can show "normal 100%" from a placeholder confidence rather than a model output.
 - **Hosts are default-deny.** Firewall allowlist, TLS with modern ciphers only, password-protected Redis with per-user ACLs, and SSH off the public interface wherever the migration is finished.
-
-## Focus
-
-Uncertainty and abstention over leaderboard chasing. Evaluation that states what it did not measure. Supply-chain hygiene for model and dependency inputs. Agentic tooling, held to the same scepticism I apply to my own scripts.
 
 ## Stack
 
-**Languages** — Python, TypeScript, SQL, C++
-**Vision and ML** — PyTorch, ONNX Runtime, OpenCV, scikit-learn, Ultralytics YOLO
-**LLM systems** — LlamaIndex, RAG pipelines, Groq API, evaluation harnesses
-**Backend** — FastAPI, Django, Flask, REST
-**Data** — PostgreSQL, MongoDB, MySQL
-**Platform** — Docker, Kubernetes (GKE), Vertex AI, MLflow, DVC, GitHub Actions, Grafana, VictoriaMetrics
-**Security** — CodeQL, Dependabot, UFW, fail2ban, Tailscale, certbot, tcpdump
+<table>
+  <tr>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/python/8b949e" width="44" alt="Python"/><br/>Python
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/typescript/8b949e" width="44" alt="TypeScript"/><br/>TypeScript
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/cplusplus/8b949e" width="44" alt="C++"/><br/>C++
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/postgresql/8b949e" width="44" alt="PostgreSQL"/><br/>PostgreSQL
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/pytorch/8b949e" width="44" alt="PyTorch"/><br/>PyTorch
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/opencv/8b949e" width="44" alt="OpenCV"/><br/>OpenCV
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/fastapi/8b949e" width="44" alt="FastAPI"/><br/>FastAPI
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/django/8b949e" width="44" alt="Django"/><br/>Django
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/docker/8b949e" width="44" alt="Docker"/><br/>Docker
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/kubernetes/8b949e" width="44" alt="Kubernetes"/><br/>Kubernetes
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/googlecloud/8b949e" width="44" alt="Google Cloud"/><br/>GCP
+    </td>
+    <td align="center" width="108">
+      <img src="https://cdn.simpleicons.org/githubactions/8b949e" width="44" alt="GitHub Actions"/><br/>Actions
+    </td>
+  </tr>
+</table>
+
+Also in daily use: MLflow, DVC, Vertex AI, Grafana, VictoriaMetrics, MongoDB, Flask, Redis, nginx, Tailscale, UFW, fail2ban, CodeQL, Dependabot, Gitleaks.
 
 ## Experience
 
@@ -73,8 +106,8 @@ Uncertainty and abstention over leaderboard chasing. Evaluation that states what
 **B.Sc. Computer Software Engineering**, Telkom University, 2023
 AI Career Bootcamp for Computer Vision, Indonesia AI (Batch 1, 2nd place) · Building Systems with the ChatGPT API, DeepLearning.AI · Database Programmer, BNSP
 
-## Contact
+---
+
+<sub>Header and portrait are AI-generated illustrations in the style of the character, not official artwork from the manga or anime. The image is decoration; the repositories are where the evidence lives.</sub>
 
 [zulfikarirsyad@gmail.com](mailto:zulfikarirsyad@gmail.com) · [LinkedIn](https://www.linkedin.com/in/irsyadzulfikar) · [zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)
-
-Open to AI engineering work where reliability matters: computer vision in production, LLM systems with real evaluation, and the security work that keeps both honest.
