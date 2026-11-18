@@ -1,4 +1,4 @@
-<img src="./img/header.webp" width="100%" align="center" alt="Irsyad Zulfikar"/>
+
 
 ---
 
