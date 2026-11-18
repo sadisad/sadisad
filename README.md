@@ -108,6 +108,4 @@ AI Career Bootcamp for Computer Vision, Indonesia AI (Batch 1, 2nd place) · Bui
 
 ---
 
-<sub>Header and portrait are AI-generated illustrations in the style of the character, not official artwork from the manga or anime. The image is decoration; the repositories are where the evidence lives.</sub>
-
 [zulfikarirsyad@gmail.com](mailto:zulfikarirsyad@gmail.com) · [LinkedIn](https://www.linkedin.com/in/irsyadzulfikar) · [zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)
