@@ -4,7 +4,7 @@
 
 <img src="./img/kaneki.webp" align="right" width="208" alt="Illustration"/>
 
-# Irsyad Dzulfikar
+# Irsyad Zulfikar
 
 **AI engineer in Jakarta.** I build computer-vision and LLM systems that run in production, and I spend about as much time on their failure modes as on the models.
 
