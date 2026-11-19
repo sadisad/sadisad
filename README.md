@@ -1,7 +1,3 @@
-
-
----
-
 <img src="./img/kaneki.webp" align="right" width="208" alt="Illustration"/>
 
 # Irsyad Zulfikar
@@ -17,7 +13,7 @@ AI Engineer at **ENB Mobile Care**: a six-model vision pipeline (detection, clas
 ### Active projects
 
 - **[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** — bean-leaf triage that abstains instead of guessing. Apache-2.0, [live demo](https://leafsentry.syd.my.id), [evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
-- **[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)** — two-stage eye-screening prototype, published with its own defects listed rather than hidden.
+- **[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)** — two-stage eye-screening prototype that abstains instead of guessing, with the rest of its limits written down.
 - **[Axiom Alpha](https://axiom-alpha.com)** — investment analysis platform on Django, deployed and maintained on one VPS.
 - **[zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)** — this site, Next.js with MDX.
 
@@ -38,7 +34,7 @@ Anything I put in a README has to survive someone reading the code. That rule sh
 - **Measurements carry their own scope.** LeafSentry's 96.875% top-1 on 128 pinned upstream test images is labelled model-level evidence, not field performance, in the repo and here.
 - **A backup is not real until it has been restored.** Restore drills are scripted, run against a scratch target, and the last result is kept, local and offsite.
 - **Guards get tested.** If a deploy path skips its migration, or a mutation forgets its audit write, CI fails before the release does. A check nobody verifies is a comment.
-- **Defects go in the README.** [deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling) documents that its own fallback path can show "normal 100%" from a placeholder confidence rather than a model output.
+- **Defects go in the README.** [deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling) turned "no boxes detected" into "normal, 100% confident" for its first few weeks. The repo now documents that defect, the commit that fixed it, and what the decision layer still cannot tell you.
 - **Hosts are default-deny.** Firewall allowlist, TLS with modern ciphers only, password-protected Redis with per-user ACLs, and SSH off the public interface wherever the migration is finished.
 
 ## Stack
