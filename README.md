@@ -14,6 +14,7 @@ AI Engineer at **ENB Mobile Care**: a six-model vision pipeline (detection, clas
 
 - **[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** — bean-leaf triage that abstains instead of guessing. Apache-2.0, [live demo](https://leafsentry.syd.my.id), [evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
 - **[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)** — two-stage eye-screening prototype that abstains instead of guessing, with the rest of its limits written down.
+- **[KenalinIkan](https://kenalinikan.id)** — Indonesian fish encyclopedia for markets and kitchens: 50 species with regional-name search, 50 recipes, a 21-province season map, and a yield/cost calculator for HoReCa. Next.js, PostgreSQL, PWA, read-only JSON API; pre-1.0 and adding species.
 - **[Axiom Alpha](https://axiom-alpha.com)** — investment analysis platform on Django, deployed and maintained on one VPS.
 - **[zulfikarirsyad.my.id](https://www.zulfikarirsyad.my.id)** — this site, Next.js with MDX.
 
