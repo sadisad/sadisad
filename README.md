@@ -34,7 +34,7 @@ Anything I put in a README has to survive someone reading the code. That rule sh
 - **Measurements carry their own scope.** LeafSentry's 96.875% top-1 on 128 pinned upstream test images is labelled model-level evidence, not field performance, in the repo and here.
 - **A backup is not real until it has been restored.** Restore drills are scripted, run against a scratch target, and the last result is kept, local and offsite.
 - **Guards get tested.** If a deploy path skips its migration, or a mutation forgets its audit write, CI fails before the release does. A check nobody verifies is a comment.
-- **Defects go in the README.** [deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling) turned "no boxes detected" into "normal, 100% confident" for its first few weeks. The repo now documents that defect, the commit that fixed it, and what the decision layer still cannot tell you.
+- **Defects go in the README.** [deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling) used to turn "no boxes detected" into "normal, 100% confident". Its README now describes that defect, the abstention that replaced it, and what the decision layer still cannot tell you.
 - **Hosts are default-deny.** Firewall allowlist, TLS with modern ciphers only, password-protected Redis with per-user ACLs, and SSH off the public interface wherever the migration is finished.
 
 ## Stack
