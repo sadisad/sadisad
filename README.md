@@ -12,7 +12,8 @@ AI Engineer at **ENB Mobile Care**: a six-model vision pipeline (detection, clas
 
 ### Active projects
 
-- **[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** — bean-leaf triage that abstains instead of guessing. Apache-2.0, [live demo](https://leafsentry.syd.my.id), [evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
+- **[LeafSentry AI](https://github.com/sadisad/leafsentry-ai)** — bean-leaf triage that abstains instead of guessing. Apache-2.0, [live API](https://leafsentry.syd.my.id), [try it from my portfolio](https://www.zulfikarirsyad.my.id/demo), [evaluation report](https://github.com/sadisad/leafsentry-ai/blob/main/docs/evaluation/README.md).
+- **SIMBK** — school counseling-records platform for a state senior high school: role-isolated dashboards, six-phase case handling, an audit journal with 12-month retention, and rehearsed offsite restores. Private repo to protect student records; [case study](https://www.zulfikarirsyad.my.id/projects/simbk) and the [hardening post](https://www.zulfikarirsyad.my.id/blog/simbk-hardening-audit) are public.
 - **[deteksi-matajuling](https://github.com/sadisad/deteksi-matajuling)** — two-stage eye-screening prototype that abstains instead of guessing, with the rest of its limits written down.
 - **[KenalinIkan](https://kenalinikan.id)** — Indonesian fish encyclopedia for markets and kitchens: 50 species with regional-name search, 50 recipes, a 21-province season map, and a yield/cost calculator for HoReCa. Next.js, PostgreSQL, PWA, read-only JSON API; pre-1.0 and adding species.
 - **[Axiom Alpha](https://axiom-alpha.com)** — investment analysis platform on Django, deployed and maintained on one VPS.
@@ -24,6 +25,7 @@ AI Engineer at **ENB Mobile Care**: a six-model vision pipeline (detection, clas
 
 ## Writing
 
+- [A Model That Would Rather Abstain Than Guess](https://www.zulfikarirsyad.my.id/blog/model-that-abstains) — why LeafSentry gates inputs, exposes calibrated uncertainty, and returns an explicit "abstained" instead of a confident guess.
 - [Hardening SIMBK: six gaps in the verification process](https://www.zulfikarirsyad.my.id/blog/simbk-hardening-audit) — a maintenance pass that found six defects in a production platform's own test and deploy checks, including a migration that could never have succeeded.
 - [Building a 6-Model Ensemble for Smartphone Grading](https://www.zulfikarirsyad.my.id/blog/smartphone-grading-ensemble) — how the pipeline ended up after a year of iteration, including the bottleneck that was not the models.
 - [Migrating from Docker Swarm to GKE: 5 Lessons from Production](https://www.zulfikarirsyad.my.id/blog/docker-swarm-to-gke) — per-microservice HPA tuning, VictoriaMetrics observability, and the cost-vs-latency tradeoff that nearly broke us.
